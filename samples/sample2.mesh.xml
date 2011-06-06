@@ -1,0 +1,57 @@
+<mesh>
+    <submeshes>
+        <submesh material="Mat01" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+            <faces count="12">
+                <face v1="0" v2="1" v3="2" />
+                <face v1="1" v2="3" v3="2" />
+                <face v1="4" v2="5" v3="6" />
+                <face v1="5" v2="7" v3="6" />
+                <face v1="5" v2="0" v3="7" />
+                <face v1="0" v2="2" v3="7" />
+                <face v1="1" v2="4" v3="3" />
+                <face v1="4" v2="6" v3="3" />
+                <face v1="4" v2="1" v3="5" />
+                <face v1="1" v2="0" v3="5" />
+                <face v1="3" v2="6" v3="2" />
+                <face v1="6" v2="7" v3="2" />
+            </faces>
+            <geometry vertexcount="8">
+                <vertexbuffer positions="true" normals="false" colours_diffuse="true">
+                    <vertex>
+                        <position x="4" y="4" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex>
+                        <position x="0" y="4" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex>
+                        <position x="4" y="0" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex>
+                        <position x="0" y="0" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex>
+                        <position x="0" y="4" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex>
+                        <position x="4" y="4" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex>
+                        <position x="0" y="0" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex>
+                        <position x="4" y="0" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                </vertexbuffer>
+            </geometry>
+        </submesh>
+    </submeshes>
+</mesh>
+

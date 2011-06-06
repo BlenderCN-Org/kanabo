@@ -1,0 +1,18 @@
+io_mesh_ogrexml
+----------------
+
+This is a blender 2.5 addon that imports/exports ogrexml files.  This addon does not have any external dependencies beyond python - that means it doesn't require SAX or wine, and will run happily on non-windows computers. 
+
+For now, it is fairly simple and does not include all mesh information.  That should change over time.
+
+To install this addon, copy the io_mesh_ogrexml folder to your blender folder:
+
+$ cp -a io_mesh_ogrexml/ ~/.blender/2.57/scripts/addons/
+
+(you could also symlink it instead)
+
+
+Raw2xml
+----------------
+
+raw2xml is a converter script for moving from .raw mesh format (ascii triangle information) to an Ogre Mesh XML file (also ascii).  Since blender 2.57 can export .raw mesh files natively, this is a decent intermediate step.  You should probably use the io_mesh_ogrexml scripts for blender instead.

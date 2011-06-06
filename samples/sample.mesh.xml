@@ -1,0 +1,121 @@
+<mesh>
+    <submeshes>
+        <submesh material="Mat01" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+            <faces count="12">
+                <face v1="0" v2="1" v3="2" />
+                <face v1="1" v2="3" v3="2" />
+                <face v1="4" v2="5" v3="6" />
+                <face v1="5" v2="7" v3="6" />
+                <face v1="8" v2="9" v3="10" />
+                <face v1="9" v2="11" v3="10" />
+                <face v1="12" v2="13" v3="14" />
+                <face v1="13" v2="15" v3="14" />
+                <face v1="16" v2="17" v3="18" />
+                <face v1="17" v2="19" v3="18" />
+                <face v1="20" v2="21" v3="22" />
+                <face v1="21" v2="23" v3="22" />
+            </faces>
+            <geometry vertexcount="24">
+                <vertexbuffer positions="true" normals="false" colours_diffuse="true">
+                    <vertex id="0">
+                        <position x="4" y="4" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="1">
+                        <position x="0" y="4" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="2">
+                        <position x="4" y="0" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="3">
+                        <position x="0" y="0" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="4">
+                        <position x="0" y="4" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="5">
+                        <position x="4" y="4" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="6">
+                        <position x="0" y="0" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="7">
+                        <position x="4" y="0" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="8">
+                        <position x="4" y="4" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="9">
+                        <position x="4" y="4" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="10">
+                        <position x="4" y="0" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="11">
+                        <position x="4" y="0" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="12">
+                        <position x="0" y="4" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="13">
+                        <position x="0" y="4" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="14">
+                        <position x="0" y="0" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="15">
+                        <position x="0" y="0" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="16">
+                        <position x="0" y="4" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="17">
+                        <position x="0" y="4" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="18">
+                        <position x="4" y="4" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="19">
+                        <position x="4" y="4" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="20">
+                        <position x="0" y="0" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="21">
+                        <position x="0" y="0" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="22">
+                        <position x="4" y="0" z="4" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                    <vertex id="23">
+                        <position x="4" y="0" z="0" />
+                        <colour_diffuse value="1 1 1" />
+                    </vertex>
+                </vertexbuffer>
+            </geometry>
+        </submesh>
+    </submeshes>
+</mesh>
+
